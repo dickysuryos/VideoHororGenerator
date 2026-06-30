@@ -20,17 +20,25 @@ Here are some example video generations created by Project Terranova and saved i
 ### 👻 Kuntilanak (Landscape)
 - **Original Prompt:** *Kuntilanak tertawa di atas pohon kelapa tua malam hari kabut tebal*
 - **Indonesian Caption:** *Di bawah naungan malam pekat, kabut tebal menari di antara pohon kelapa tua yang bengkok. Tawa melengking, dingin menusuk tulang, menggema dari sesosok Kuntilanak yang bertengger di dahan, siap meneror jiwa yang tersesat.*
-- **Video File:** [output/0088b74e-2009-49e1-81be-f43c31158f03.mp4](output/0088b74e-2009-49e1-81be-f43c31158f03.mp4)
+- **Video URL:** [http://horror.videoharbor.space/api/video/output/0088b74e-2009-49e1-81be-f43c31158f03.mp4](http://horror.videoharbor.space/api/video/output/0088b74e-2009-49e1-81be-f43c31158f03.mp4)
+
+https://github.com/dickysuryos/VideoHororGenerator/assets/0088b74e-2009-49e1-81be-f43c31158f03.mp4
+
+<video src="http://horror.videoharbor.space/api/video/output/0088b74e-2009-49e1-81be-f43c31158f03.mp4" width="100%" controls></video>
 
 ### 👻 Pocong (Portrait)
 - **Original Prompt:** *pocong bersembunyi di balik pohon pisang , di malam hari diterangi cahaya bulan*
 - **Indonesian Caption:** *Di tengah pekatnya malam dan kabut yang memeluk rumpun pisang, sesosok Pocong mengintai, terbungkus kafan lusuh yang membusuk. Mata putihnya bersinar dingin di bawah rembulan, sementara wajah pucatnya terkunci dalam jeritan tanpa suara, siap meneror di kegelapan abadi.*
-- **Video File:** [output/3c8eb377-ad54-449f-bc3a-a2be59817c27.mp4](output/3c8eb377-ad54-449f-bc3a-a2be59817c27.mp4)
+- **Video URL:** [http://horror.videoharbor.space/api/video/output/3c8eb377-ad54-449f-bc3a-a2be59817c27.mp4](http://horror.videoharbor.space/api/video/output/3c8eb377-ad54-449f-bc3a-a2be59817c27.mp4)
+
+<video src="http://horror.videoharbor.space/api/video/output/3c8eb377-ad54-449f-bc3a-a2be59817c27.mp4" width="100%" controls></video>
 
 ### 🌳 Creepy Forest Atmosphere (Landscape)
 - **Original Prompt:** *berjalan menelusuri hutan lebat di malam hari yang menyeramkan , tiba tiba mendengar sesuatu terjatuh di arah belakang pohon*
 - **Indonesian Caption:** *Malam merayap sunyi di hutan belantara, kabut tebal menyelimuti setiap sudut, mencekik napas. Tiba-tiba, suara dentuman misterius memecah keheningan, menggema dari balik bayangan pohon tua, seolah ada sesuatu yang mengintai di kedalaman gelap.*
-- **Video File:** [output/5232233b-8bc1-4fdc-a34b-a1fb3ee6608e.mp4](output/5232233b-8bc1-4fdc-a34b-a1fb3ee6608e.mp4)
+- **Video URL:** [http://horror.videoharbor.space/api/video/output/5232233b-8bc1-4fdc-a34b-a1fb3ee6608e.mp4](http://horror.videoharbor.space/api/video/output/5232233b-8bc1-4fdc-a34b-a1fb3ee6608e.mp4)
+
+<video src="http://horror.videoharbor.space/api/video/output/5232233b-8bc1-4fdc-a34b-a1fb3ee6608e.mp4" width="100%" controls></video>
 
 ---
 

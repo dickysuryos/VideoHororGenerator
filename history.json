@@ -177,8 +177,8 @@
     "ghost_type": "pocong",
     "model_type": "1.3b",
     "aspect_ratio": "portrait",
-    "status": "processing",
-    "progress": 45,
+    "status": "completed",
+    "progress": 100,
     "logs": [
       "Memulai inisialisasi proyek Terranova...",
       "Menemukan gambar referensi: pocong-ai3.jpeg. Menganalisis estetika mistis...",
@@ -187,9 +187,11 @@
       "Takarir Bahasa Indonesia berhasil dibuat.",
       "Menghubungi serverless H100 di Modal.com untuk memuat Wan13BModel...",
       "Mengirim permintaan pembuatan video ke Modal GPU...",
-      "Memulai proses denoising Wan 2.1 pada GPU H100 (cold start mungkin memakan waktu 1-2 menit)..."
+      "Memulai proses denoising Wan 2.1 pada GPU H100 (cold start mungkin memakan waktu 1-2 menit)...",
+      "Video berhasil diproduksi di Modal. Mengunduh hasil video...",
+      "Video selesai dibangkitkan sepenuhnya!"
     ],
-    "video_url": null,
+    "video_url": "/api/video/output/36868540-812c-4df0-a134-14d1b795d863.mp4",
     "timestamp": "2026-06-30 13:40:42"
   }
 }
