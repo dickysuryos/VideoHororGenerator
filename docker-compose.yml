@@ -1,0 +1,20 @@
+services:
+  app:
+    build: .
+    container_name: terranova-bff
+    # Run with host's devmon user credentials to ensure read/write access to mounted volumes
+    user: "300:1001"
+    restart: unless-stopped
+    ports:
+      # Bound to 0.0.0.0 to allow access from any host interface
+      - "8005:8005"
+    env_file:
+      - .env
+    environment:
+      - HOST=0.0.0.0
+      - PORT=8005
+    volumes:
+      - ./history.json:/app/history.json
+      - ./output:/app/output
+      - ./uploads:/app/uploads
+      - ./reference-image:/app/reference-image

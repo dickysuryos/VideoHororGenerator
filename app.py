@@ -377,5 +377,7 @@ app.mount("/", StaticFiles(directory=str(static_dir), html=True), name="static")
 
 if __name__ == "__main__":
     import uvicorn
-    # Enforce localhost/127.0.0.1 for testing security
-    uvicorn.run("app:app", host="127.0.0.1", port=8005, reload=True)
+    # Enforce localhost/127.0.0.1 for testing security by default, allow override in Docker
+    host = os.environ.get("HOST", "127.0.0.1")
+    port = int(os.environ.get("PORT", 8005))
+    uvicorn.run("app:app", host=host, port=port, reload=True)

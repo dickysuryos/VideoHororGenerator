@@ -4,6 +4,18 @@ All notable changes to **Project Terranova** will be documented in this file.
 
 ---
 
+## [1.1.0] - 2026-06-30
+
+### Added
+- Dockerized the BFF server using a lightweight `Dockerfile` based on `python:3.11-slim`.
+- Created `docker-compose.yml` configuration to build, mount persistent volumes (history, output, uploads, assets), and run the server locally.
+- Added `.dockerignore` to keep image build context clean and secure.
+
+### Changed
+- Updated `app.py` to allow dynamic `HOST` and `PORT` environment configurations, falling back to secure local defaults.
+
+---
+
 ## [1.0.1] - 2026-06-30
 
 ### Fixed

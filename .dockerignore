@@ -1,0 +1,23 @@
+# Git and config
+.git
+.gitignore
+.env
+.env-example
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Volumes/dynamic data
+output/
+uploads/
+history.json
+
+# Docker files
+Dockerfile
+docker-compose.yml
+.dockerignore
+README.md
+CHANGELOG.md

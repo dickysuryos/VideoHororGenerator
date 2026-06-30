@@ -119,5 +119,77 @@
     ],
     "video_url": "/api/video/output/5232233b-8bc1-4fdc-a34b-a1fb3ee6608e.mp4",
     "timestamp": "2026-06-30 00:42:55"
+  },
+  "0f1d50e3-ddb4-4cab-83ea-dd48ff885ff6": {
+    "id": "0f1d50e3-ddb4-4cab-83ea-dd48ff885ff6",
+    "prompt_original": "pocong bersembunyi di balik pohon pisang di malam diterangi oleh bulan",
+    "prompt_expanded": "A chilling, ultra-realistic horror video. The camera begins with a slow, low-angle pan through a dense, overgrown cluster of banana trees under the oppressive darkness of a moonlit Indonesian night. Thick, swirling ground mist, illuminated faintly by a sickly yellow moonlight filtering through the broad, decaying banana leaves, creates long, dancing shadows that stretch and contract. The air is heavy and humid, with visible moisture droplets clinging to the lush, dark green foliage. The camera slowly tracks forward, revealing a Pocong partially concealed behind a thick banana trunk. Its ancient, soiled linen shroud, stained with earth and grime, is tightly bound, emphasizing its unsettling, rigid form. Close-up details reveal the coarse, rough texture of the shroud's fabric. Its face, a gruesome spectacle of dark, leathery decay and exposed, jagged teeth, emerges from the shadows. The eyes, piercing and malevolent, glow with a soft, unnerving amber light, reflecting the distant, obscured moonlight. The camera holds on its grotesque visage, a faint, unsettling smile seeming to widen in the dim light, before slowly pulling back as an unearthly stillness descends, broken only by the gentle rustle of leaves.",
+    "indonesian_caption": "Di bawah naungan rembulan yang suram, kabut tebal menyelimuti rerimbunan pohon pisang, menari bersama bayangan yang memanjang. Dari balik kegelapan itu, sesosok pocong dengan mata menyala dan senyum busuknya perlahan muncul, menghantui kesunyian malam yang mencekam.",
+    "ghost_type": "pocong",
+    "model_type": "14b",
+    "aspect_ratio": "landscape",
+    "status": "failed",
+    "progress": 100,
+    "logs": [
+      "Memulai inisialisasi proyek Terranova...",
+      "Menemukan gambar referensi: pocong-ai2.jpeg. Menganalisis estetika mistis...",
+      "Menghubungi Gemini 2.5 Flash untuk perluasan prompt...",
+      "Prompt diperluas (Inggris): A chilling, ultra-realistic horror video. The camera begins ...",
+      "Takarir Bahasa Indonesia berhasil dibuat.",
+      "Menghubungi serverless H100 di Modal.com untuk memuat Wan14BModel...",
+      "Mengirim permintaan pembuatan video ke Modal GPU...",
+      "Memulai proses denoising Wan 2.1 pada GPU H100 (cold start mungkin memakan waktu 1-2 menit)...",
+      "Kesalahan pemrosesan: "
+    ],
+    "video_url": null,
+    "timestamp": "2026-06-30 13:30:52"
+  },
+  "3c8eb377-ad54-449f-bc3a-a2be59817c27": {
+    "id": "3c8eb377-ad54-449f-bc3a-a2be59817c27",
+    "prompt_original": "pocong bersembunyi di balik pohon pisang , di malam hari diterangi cahaya bulan",
+    "prompt_expanded": "A slow, steady cinematic low-angle tracking shot glides through a dense, overgrown Indonesian banana plantation on a humid, moonlit night. Thick, ground-hugging mist swirls lazily, partially obscuring the view. The broad, dark green banana leaves cast long, oppressive, inky shadows, almost entirely engulfing the path. Distant, unnerving insect sounds punctuate the eerie silence. The camera slowly pushes forward, revealing a cluster of banana trees shrouded in a slightly thicker veil of mist. As the moonlight filters through a momentary break in the canopy, it starkly illuminates a figure peeking from behind a colossal banana trunk. It is a terrifying Pocong, its body tightly bound in ancient, tattered white burial cloth, damp and stained with earth. Its gaunt, decaying face is a ghastly white, framed by dark, sunken sockets where unnaturally glowing, pupil-less white eyes fixate directly forward. Its mouth is agape in a silent, bloodcurdling scream, revealing rows of sharp, unsettling teeth. The camera holds on this chilling revelation, emphasizing the realistic, coarse texture of the shroud and the unsettling, unmoving gaze, before a subtle, almost imperceptible shift of the Pocong's form suggests an impending, terrifying lunge from the shadows.",
+    "indonesian_caption": "Di tengah pekatnya malam dan kabut yang memeluk rumpun pisang, sesosok Pocong mengintai, terbungkus kafan lusuh yang membusuk. Mata putihnya bersinar dingin di bawah rembulan, sementara wajah pucatnya terkunci dalam jeritan tanpa suara, siap meneror di kegelapan abadi.",
+    "ghost_type": "pocong",
+    "model_type": "1.3b",
+    "aspect_ratio": "portrait",
+    "status": "completed",
+    "progress": 100,
+    "logs": [
+      "Memulai inisialisasi proyek Terranova...",
+      "Menemukan gambar referensi: pocong-ai.jpeg. Menganalisis estetika mistis...",
+      "Menghubungi Gemini 2.5 Flash untuk perluasan prompt...",
+      "Prompt diperluas (Inggris): A slow, steady cinematic low-angle tracking shot glides thro...",
+      "Takarir Bahasa Indonesia berhasil dibuat.",
+      "Menghubungi serverless H100 di Modal.com untuk memuat Wan13BModel...",
+      "Mengirim permintaan pembuatan video ke Modal GPU...",
+      "Memulai proses denoising Wan 2.1 pada GPU H100 (cold start mungkin memakan waktu 1-2 menit)...",
+      "Video berhasil diproduksi di Modal. Mengunduh hasil video...",
+      "Video selesai dibangkitkan sepenuhnya!"
+    ],
+    "video_url": "/api/video/output/3c8eb377-ad54-449f-bc3a-a2be59817c27.mp4",
+    "timestamp": "2026-06-30 13:32:03"
+  },
+  "36868540-812c-4df0-a134-14d1b795d863": {
+    "id": "36868540-812c-4df0-a134-14d1b795d863",
+    "prompt_original": "pocong bermata merah menyeramkan dan realistis  bersembunyi di balik pohon pisang , di malam hari diterangi cahaya bulan",
+    "prompt_expanded": "A slow, creeping cinematic wide shot of a desolate, moonlit Indonesian jungle path at the dead of night. Dense, shadowy banana trees with large, drooping leaves loom ominously, casting intricate, dancing shadows under a pale, spectral moonlight that barely penetrates the thick canopy. A low-lying, swirling mist hugs the damp ground, drifting lazily through the undergrowth. The camera slowly, deliberately pans to the right, then gently zooms in, pushing through the heavy air. From behind the broad, dark silhouette of a massive banana tree trunk, a figure slowly emerges. It's a terrifying, hyper-realistic Pocong, shrouded in a grimy, decaying white cloth, its head tightly bound, revealing a gaunt, ashen face. Its skin is mottled and necrotic, with hints of dried blood or decay around the lips. Its eyes, however, are the most chilling detail \n two intensely glowing, malevolent red orbs that pierce the darkness with an unnatural, predatory intensity. The tattered fabric of its shroud is stained with mud and grime, fluttering slightly in a barely perceptible breeze, emphasizing its eerie, undead presence. The air is thick with a chilling silence, broken only by the faint rustling of unseen leaves, and the overwhelming sense of dread. The moonlight catches the coarse texture of the shroud, highlighting every fold and tear.",
+    "indonesian_caption": "Di bawah rembulan kelabu, kabut perlahan menyelimuti belantara malam. Di balik rumpun pisang yang gelap, sesosok Pocong berbalut kafan lusuh muncul, mata merahnya menyala tajam menembus kegelapan, mengundang kengerian yang tak terlukiskan.",
+    "ghost_type": "pocong",
+    "model_type": "1.3b",
+    "aspect_ratio": "portrait",
+    "status": "processing",
+    "progress": 45,
+    "logs": [
+      "Memulai inisialisasi proyek Terranova...",
+      "Menemukan gambar referensi: pocong-ai3.jpeg. Menganalisis estetika mistis...",
+      "Menghubungi Gemini 2.5 Flash untuk perluasan prompt...",
+      "Prompt diperluas (Inggris): A slow, creeping cinematic wide shot of a desolate, moonlit ...",
+      "Takarir Bahasa Indonesia berhasil dibuat.",
+      "Menghubungi serverless H100 di Modal.com untuk memuat Wan13BModel...",
+      "Mengirim permintaan pembuatan video ke Modal GPU...",
+      "Memulai proses denoising Wan 2.1 pada GPU H100 (cold start mungkin memakan waktu 1-2 menit)..."
+    ],
+    "video_url": null,
+    "timestamp": "2026-06-30 13:40:42"
   }
 }
