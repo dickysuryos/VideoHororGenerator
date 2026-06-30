@@ -1,0 +1,17 @@
+# Local Environment Variables
+.env
+
+# Large Output Videos
+output/
+*.mp4
+
+# Python Cache & Objects
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.gemini/
+.idea/
+.vscode/
+venv/
+.venv/

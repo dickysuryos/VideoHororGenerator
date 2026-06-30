@@ -1,0 +1,123 @@
+{
+  "8e070a17-39c5-45f0-bced-dd1f926d0499": {
+    "id": "8e070a17-39c5-45f0-bced-dd1f926d0499",
+    "prompt_original": "Kuntilanak tertawa di atas pohon kelapa tua malam hari kabut tebal",
+    "prompt_expanded": "A bone-chillingly realistic horror video. The scene opens with a slow, deliberate cinematic crane shot, beginning low, panning upwards through a suffocatingly dense, fog-laden Indonesian jungle at the darkest hour of night. Ancient, gnarled coconut trees pierce the heavy, swirling mist, their shadowy forms barely discernible. A faint, otherworldly moonlight struggles to penetrate the thick canopy and atmospheric haze, casting long, grotesque shadows that writhe across the wet, decaying jungle floor. The camera steadies on a particularly towering, decrepit coconut tree, its textured bark rough and ancient. High above, almost swallowed by the darkness and fog, a Kuntilanak is faintly revealed. Her impossibly long, dark hair hangs wildly, partially obscuring a deathly pale face, while her tattered, off-white gown billows almost imperceptibly. As the camera very slowly zooms, a chilling, high-pitched, guttural laugh erupts from her, echoing unnaturally through the dense fog and silent forest, sending shivers down the spine. The surrounding mist subtly parts and converges around her, amplifying her spectral presence, creating a truly terrifying, realistic visual.",
+    "indonesian_caption": "Di tengah pekatnya malam hutan tropis yang diselimuti kabut tebal, sesosok Kuntilanak menanti di puncak pohon kelapa tua. Tawa melengkingnya yang menusuk keheningan adalah isyarat awal dari teror tak berujung yang datang dari kegelapan.",
+    "ghost_type": "kuntilanak",
+    "model_type": "1.3b",
+    "aspect_ratio": "landscape",
+    "status": "failed",
+    "progress": 100,
+    "logs": [
+      "Memulai inisialisasi proyek Terranova...",
+      "Menemukan gambar referensi: kuntilanak-ai3.jpeg. Menganalisis estetika mistis...",
+      "Menghubungi Gemini 2.5 Flash untuk perluasan prompt...",
+      "Prompt diperluas (Inggris): A bone-chillingly realistic horror video. The scene opens wi...",
+      "Takarir Bahasa Indonesia berhasil dibuat.",
+      "Menghubungi serverless H100 di Modal.com untuk memuat Wan13BModel...",
+      "Mengirim permintaan pembuatan video ke Modal GPU...",
+      "Memulai proses denoising Wan 2.1 pada GPU H100 (cold start mungkin memakan waktu 1-2 menit)...",
+      "Kesalahan pemrosesan: \nexport_to_video requires the OpenCV library but it was not found in your environment. You can install it with pip: `pip\ninstall opencv-python`\n"
+    ],
+    "video_url": null,
+    "timestamp": "2026-06-29 21:23:39"
+  },
+  "0088b74e-2009-49e1-81be-f43c31158f03": {
+    "id": "0088b74e-2009-49e1-81be-f43c31158f03",
+    "prompt_original": "Kuntilanak tertawa di atas pohon kelapa tua malam hari kabut tebal",
+    "prompt_expanded": "A low-angle cinematic shot slowly pans through a dense, humid Indonesian jungle at the dead of night. Thick, swirling, almost sentient mist clings to the ancient, gnarled trunks of towering coconut trees, their rough, weathered bark textured with moss and shadows. A faint, eerie luminescence from a sliver of hidden moonlight barely cuts through the oppressive darkness, casting elongated, dancing shadows that seem to writhe with unseen life. The camera continues its deliberate pan, revealing the spectral figure of a Kuntilanak perched unnaturally on a high branch of a very old, leaning coconut tree. Her incredibly long, jet-black hair hangs like a dark veil, obscuring much of her pale, gaunt face, but her cavernous, stretched mouth, filled with razor-sharp teeth, is visible as she lets out a chilling, high-pitched, echoing cackle that slices through the silence. Her tattered, flowing white kebayak-like dress, stained and translucent with age and moisture, billows slightly in an unfelt breeze, a stark, terrifying contrast against the dark foliage and swirling fog. The air is heavy, palpable with dread, and the Kuntilanak's eyes, though mostly hidden, seem to glow faintly from within the darkness of her hair, watching. The atmosphere is intensely humid, the sounds of distant insects are muffled by the mist, enhancing the isolation and terror.",
+    "indonesian_caption": "Di bawah naungan malam pekat, kabut tebal menari di antara pohon kelapa tua yang bengkok. Tawa melengking, dingin menusuk tulang, menggema dari sesosok Kuntilanak yang bertengger di dahan, siap meneror jiwa yang tersesat.",
+    "ghost_type": "kuntilanak",
+    "model_type": "1.3b",
+    "aspect_ratio": "landscape",
+    "status": "completed",
+    "progress": 100,
+    "logs": [
+      "Memulai inisialisasi proyek Terranova...",
+      "Menemukan gambar referensi: kuntilanak-ai.jpeg. Menganalisis estetika mistis...",
+      "Menghubungi Gemini 2.5 Flash untuk perluasan prompt...",
+      "Prompt diperluas (Inggris): A low-angle cinematic shot slowly pans through a dense, humi...",
+      "Takarir Bahasa Indonesia berhasil dibuat.",
+      "Menghubungi serverless H100 di Modal.com untuk memuat Wan13BModel...",
+      "Mengirim permintaan pembuatan video ke Modal GPU...",
+      "Memulai proses denoising Wan 2.1 pada GPU H100 (cold start mungkin memakan waktu 1-2 menit)...",
+      "Video berhasil diproduksi di Modal. Mengunduh hasil video...",
+      "Video selesai dibangkitkan sepenuhnya!"
+    ],
+    "video_url": "/api/video/output/0088b74e-2009-49e1-81be-f43c31158f03.mp4",
+    "timestamp": "2026-06-30 00:15:49"
+  },
+  "5c75b4bb-fb86-4acd-9f7e-06a886eb8a5f": {
+    "id": "5c75b4bb-fb86-4acd-9f7e-06a886eb8a5f",
+    "prompt_original": "Kuntilanak tertawa di atas pohon kelapa tua malam hari kabut tebal",
+    "prompt_expanded": "A low-angle, cinematic shot begins with a slow, deliberate pan through a thick, swirling, almost sentient mist blanketing a moonlit, ancient Indonesian forest floor. Realistic textures of damp earth and decaying leaves are sharply visible. The camera slowly tilts upwards, revealing the imposing, gnarled trunk of an old coconut tree, its rough bark casting deep, distorted shadows under a sliver of eerie, flickering moonlight that intermittently breaks through the dense canopy. The air is heavy and silent, save for the subtle rustling of unseen leaves. Suddenly, an unnervingly high-pitched, guttural cackle echoes through the oppressive quiet. The camera slowly zooms in, focusing on the upper reaches of the tree where a Kuntilanak is unnaturally perched. Her incredibly long, coarse black hair cascades down her back and partially covers a ghastly pale face, featuring sunken, empty eye sockets and a wide, terrifyingly sharp-toothed grin. She wears a flowing, tattered white traditional dress, its aged fabric detailed with subtle stains and tears. Her elongated, skeletal fingers with grotesquely long, pointed nails clutch the tree trunk. The thick mist perpetually swirls around her, creating an ethereal, horrifying aura as her chilling laughter intensifies, building to a crescendo of pure dread.",
+    "indonesian_caption": "Di bawah rembulan yang tersembunyi, kabut tebal memeluk hutan tua, menyembunyikan misteri. Tawa melengking Kuntilanak memecah kesunyian malam, menggetarkan setiap helai daun dan mengisi udara dengan kengerian yang tak terlukiskan. Sosoknya yang menyeramkan bergaun putih, bertengger di pohon kelapa tua, menjadi bayangan abadi di kegelapan.",
+    "ghost_type": "kuntilanak",
+    "model_type": "1.3b",
+    "aspect_ratio": "landscape",
+    "status": "completed",
+    "progress": 100,
+    "logs": [
+      "Memulai inisialisasi proyek Terranova...",
+      "Menemukan gambar referensi: kuntilanak-ai.jpeg. Menganalisis estetika mistis...",
+      "Menghubungi Gemini 2.5 Flash untuk perluasan prompt...",
+      "Prompt diperluas (Inggris): A low-angle, cinematic shot begins with a slow, deliberate p...",
+      "Takarir Bahasa Indonesia berhasil dibuat.",
+      "Menghubungi serverless H100 di Modal.com untuk memuat Wan13BModel...",
+      "Mengirim permintaan pembuatan video ke Modal GPU...",
+      "Memulai proses denoising Wan 2.1 pada GPU H100 (cold start mungkin memakan waktu 1-2 menit)...",
+      "Video berhasil diproduksi di Modal. Mengunduh hasil video...",
+      "Video selesai dibangkitkan sepenuhnya!"
+    ],
+    "video_url": "/api/video/output/5c75b4bb-fb86-4acd-9f7e-06a886eb8a5f.mp4",
+    "timestamp": "2026-06-30 00:20:50"
+  },
+  "8805773d-95ab-413b-98d6-ab4a23379d28": {
+    "id": "8805773d-95ab-413b-98d6-ab4a23379d28",
+    "prompt_original": "berjalan menelusuri hutan lebat di malam hari yang menyeramkan , tiba tiba mendengar sesuatu terjatuh di arah belakang pohon",
+    "prompt_expanded": "A lone figure, cloaked in ragged, damp fabric, walks slowly and tentatively through a pitch-black, ancient Indonesian rainforest at the dead of a moonless night. The air is thick with a swirling, ghostly mist that clings to the gnarled roots and hangs heavy between colossal, moss-covered trees. Sparse, sickly moonlight occasionally pierces the dense canopy, casting long, distorted shadows that dance and stretch with every subtle sway of the unseen branches above. The camera pans low, tracking the figure's mud-caked boots as they crunch softly on a carpet of decaying leaves and wet earth, revealing realistic textures of damp soil and slippery moss. A low, haunting hum of unseen insects fills the oppressive silence. Suddenly, a sharp, wet thud echoes from deep within the impenetrable shadows behind a towering banyan tree just off-screen, followed by a faint, wet dragging sound. The camera quickly whips around, a rapid, jarring pan towards the source of the noise, revealing only deeper, impenetrable darkness and swirling mist, leaving the viewer to imagine the horror. The scene is shot with an ultra-realistic, grainy texture, low-light cinematography, emphasizing deep blacks and subtle glimmers of moisture on the foliage, amplifying the oppressive dread.",
+    "indonesian_caption": "Di tengah hutan belantara yang pekat, langkah kaki memecah keheningan mencekam malam. Tiba-tiba, suara dentuman basah dan seretan samar terdengar dari balik bayangan pohon beringin raksasa, mengoyak tirai kabut dan memanggil kengerian yang tak terlihat.",
+    "ghost_type": "none",
+    "model_type": "14b",
+    "aspect_ratio": "landscape",
+    "status": "failed",
+    "progress": 100,
+    "logs": [
+      "Memulai inisialisasi proyek Terranova...",
+      "Menghubungi Gemini 2.5 Flash untuk perluasan prompt...",
+      "Prompt diperluas (Inggris): A lone figure, cloaked in ragged, damp fabric, walks slowly ...",
+      "Takarir Bahasa Indonesia berhasil dibuat.",
+      "Menghubungi serverless H100 di Modal.com untuk memuat Wan14BModel...",
+      "Mengirim permintaan pembuatan video ke Modal GPU...",
+      "Memulai proses denoising Wan 2.1 pada GPU H100 (cold start mungkin memakan waktu 1-2 menit)...",
+      "Kesalahan pemrosesan: CUDA out of memory. Tried to allocate 50.00 MiB. GPU 0 has a total capacity of 22.06 GiB of which 31.44 MiB is free. Process 1 has 22.02 GiB memory in use. Of the allocated memory 21.73 GiB is allocated by PyTorch, and 19.16 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)"
+    ],
+    "video_url": null,
+    "timestamp": "2026-06-30 00:38:09"
+  },
+  "5232233b-8bc1-4fdc-a34b-a1fb3ee6608e": {
+    "id": "5232233b-8bc1-4fdc-a34b-a1fb3ee6608e",
+    "prompt_original": "berjalan menelusuri hutan lebat di malam hari yang menyeramkan , tiba tiba mendengar sesuatu terjatuh di arah belakang pohon",
+    "prompt_expanded": "A wide, low-angle tracking shot follows closely behind a lone figure, their silhouette barely visible, cautiously navigating a narrow, overgrown dirt path winding through a dense, ancient Indonesian rainforest at the dead of a moonless night. The air is heavy with a thick, ethereal mist that swirls lazily around gnarled tree trunks and giant fern fronds, partially obscuring the path ahead and behind. Deep, oppressive shadows stretch and writhe, cast by an unseen, faint light source, creating an almost suffocating sense of dread. The camera slowly pans, revealing intricate patterns of wet, decaying leaves and tangled roots underfoot. The only ambient sound is the distant, rhythmic chirping of unseen insects and the soft, squishing sound of their cautious footsteps. Suddenly, a sharp, unsettling 'THUD' followed by a dry, splintering 'CRACK' echoes loudly from deep within the dense foliage just off-path to their immediate left, behind a massive, moss-covered banyan tree. The figure instantly freezes, their breath catching in the humid air, head slowly tilting, eyes darting into the impenetrable darkness, the ominous shadows around them seeming to deepen and grow more menacing.",
+    "indonesian_caption": "Malam merayap sunyi di hutan belantara, kabut tebal menyelimuti setiap sudut, mencekik napas. Tiba-tiba, suara dentuman misterius memecah keheningan, menggema dari balik bayangan pohon tua, seolah ada sesuatu yang mengintai di kedalaman gelap.",
+    "ghost_type": "none",
+    "model_type": "1.3b",
+    "aspect_ratio": "landscape",
+    "status": "completed",
+    "progress": 100,
+    "logs": [
+      "Memulai inisialisasi proyek Terranova...",
+      "Menghubungi Gemini 2.5 Flash untuk perluasan prompt...",
+      "Prompt diperluas (Inggris): A wide, low-angle tracking shot follows closely behind a lon...",
+      "Takarir Bahasa Indonesia berhasil dibuat.",
+      "Menghubungi serverless H100 di Modal.com untuk memuat Wan13BModel...",
+      "Mengirim permintaan pembuatan video ke Modal GPU...",
+      "Memulai proses denoising Wan 2.1 pada GPU H100 (cold start mungkin memakan waktu 1-2 menit)...",
+      "Video berhasil diproduksi di Modal. Mengunduh hasil video...",
+      "Video selesai dibangkitkan sepenuhnya!"
+    ],
+    "video_url": "/api/video/output/5232233b-8bc1-4fdc-a34b-a1fb3ee6608e.mp4",
+    "timestamp": "2026-06-30 00:42:55"
+  }
+}

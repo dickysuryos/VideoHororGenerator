@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terranova: Horror Video AI Generator (Wan 2.1)</title>
+    <!-- Google Fonts for spooky and clean modern typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Outfit:wght@300;400;600;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Spooky animated mist background overlay -->
+    <div class="mist-overlay"></div>
+    <div class="vignette"></div>
+
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <h1 class="glow-title">TERRANOVA</h1>
+            <p class="subtitle">Summon Realistic Horror Videos using Wan 2.1 & H100 GPUs</p>
+        </header>
+
+        <!-- Main Workspace -->
+        <main class="workspace">
+            <!-- Left Panel: Configuration -->
+            <section class="panel config-panel">
+                <h2 class="panel-title">Pengaturan Ritual (Ritual Configurations)</h2>
+                
+                <form id="generator-form">
+                    <!-- Text Prompt -->
+                    <div class="form-group">
+                        <label for="prompt">Ide Kejadian Mistis (Horror Description)</label>
+                        <textarea 
+                            id="prompt" 
+                            name="prompt" 
+                            rows="4" 
+                            placeholder="Tuliskan adegan horor Anda di sini dalam Bahasa Indonesia... (Contoh: Sesosok wanita bermata merah berdiri di koridor rumah sakit tua yang berdarah, lampu berkedip-kedip ditiup angin kencang)" 
+                            required
+                        ></textarea>
+                    </div>
+
+                    <!-- Ghost References -->
+                    <div class="form-group">
+                        <label>Referensi Estetika Hantu (Ghost Aesthetics Reference)</label>
+                        <div class="references-carousel" id="references-container">
+                            <!-- Populated dynamically via script.js -->
+                            <div class="ref-card active" data-type="none">
+                                <div class="ref-card-img-placeholder">
+                                    <span>🔮</span>
+                                </div>
+                                <div class="ref-card-info">
+                                    <h3>Tanpa Referensi</h3>
+                                    <p>Murni deskripsi prompt tanpa mengacu folklore khusus.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Layout and Model -->
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="model-type">Model AI</label>
+                            <select id="model-type" name="model_type">
+                                <option value="14b" selected>Wan 2.1 - 14B (Kualitas Sinematik H100)</option>
+                                <option value="1.3b">Wan 2.1 - 1.3B (Generasi Cepat)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="aspect-ratio">Aspek Rasio (Aspect Ratio)</label>
+                            <select id="aspect-ratio" name="aspect_ratio">
+                                <option value="landscape" selected>Landscape (16:9 / 832x480)</option>
+                                <option value="portrait">Portrait (9:16 / 480x832)</option>
+                                <option value="square">Square (1:1 / 624x624)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Advanced Parameters (Collapsible) -->
+                    <details class="advanced-settings">
+                        <summary>Ritual Lanjutan (Advanced Parameters)</summary>
+                        <div class="advanced-grid">
+                            <div class="form-group">
+                                <label for="steps">Langkah Inferensi (Inference Steps): <span id="steps-val">30</span></label>
+                                <input type="range" id="steps" name="steps" min="10" max="50" value="30">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="guidance">Skala Panduan (Guidance Scale): <span id="guidance-val">5.0</span></label>
+                                <input type="range" id="guidance" name="guidance" min="1" max="15" step="0.5" value="5.0">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="seed">Benih Acak (Seed)</label>
+                                <input type="number" id="seed" name="seed" placeholder="-1 (Acak)" value="-1">
+                            </div>
+                        </div>
+                    </details>
+
+                    <!-- Generate Button -->
+                    <button type="submit" class="btn-generate" id="btn-submit">
+                        <span class="btn-icon">💀</span> BANGKITKAN RITUAL
+                    </button>
+                </form>
+            </section>
+
+            <!-- Right Panel: Output & Player -->
+            <section class="panel output-panel">
+                <h2 class="panel-title">Manifestasi Mistis (Manifestation Portal)</h2>
+
+                <div class="portal-wrapper">
+                    <!-- Idle Screen -->
+                    <div class="portal-state state-idle" id="portal-idle">
+                        <div class="portal-sigil">👹</div>
+                        <h3>Portal Siap Memanifestasikan Horor</h3>
+                        <p>Tuliskan ide ritual mistis di panel kiri, pilih referensi, dan klik tombol bangkitkan.</p>
+                    </div>
+
+                    <!-- Loading Screen -->
+                    <div class="portal-state state-loading hidden" id="portal-loading">
+                        <div class="candles-loader">
+                            <div class="candle"></div>
+                            <div class="candle"></div>
+                            <div class="candle"></div>
+                        </div>
+                        <div class="loading-progress">
+                            <span class="progress-pct" id="loading-pct">0%</span>
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="loading-bar" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                        <p class="loading-status" id="loading-status">Menghubungi dimensi mistis...</p>
+                        
+                        <!-- Terminal Log Panel -->
+                        <div class="terminal-logs">
+                            <div class="terminal-header">
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="terminal-title">modal_console.log</span>
+                            </div>
+                            <div class="terminal-body" id="terminal-body">
+                                <!-- Logs will stream here -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Display Screen -->
+                    <div class="portal-state state-video hidden" id="portal-video-container">
+                        <!-- Spooky Player Wrapper -->
+                        <div class="video-player-wrapper">
+                            <video id="output-player" controls preload="auto"></video>
+                        </div>
+                        
+                        <!-- Spooky Indonesian Caption -->
+                        <div class="caption-container">
+                            <h3 class="caption-header">Takarir Mistis (Indonesian Caption)</h3>
+                            <p class="caption-text" id="manifestation-caption"></p>
+                        </div>
+
+                        <!-- Technical Meta Info -->
+                        <details class="technical-meta">
+                            <summary>Spesifikasi Manifestasi (Technical Meta)</summary>
+                            <div class="meta-content">
+                                <p><strong>Prompt Hasil Perluasan Gemini:</strong></p>
+                                <blockquote id="meta-expanded-prompt"></blockquote>
+                                <div class="meta-row">
+                                    <div><strong>Model:</strong> <span id="meta-model">Wan 2.1 14B</span></div>
+                                    <div><strong>Rasio:</strong> <span id="meta-ratio">Landscape</span></div>
+                                    <div><strong>Langkah:</strong> <span id="meta-steps">30</span></div>
+                                    <div><strong>Seed:</strong> <span id="meta-seed">123456</span></div>
+                                </div>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Gallery Section -->
+        <section class="gallery-section">
+            <h2 class="section-title">Galeri Manifestasi Terdahulu (Ritual Archives)</h2>
+            <div class="gallery-grid" id="gallery-container">
+                <!-- Gallery cards will be rendered dynamically here -->
+                <div class="no-history">Belum ada ritual mistis yang diarsipkan. Mulailah ritual pertamamu sekarang!</div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
